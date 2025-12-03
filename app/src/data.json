@@ -184,12 +184,10 @@
         "number": "9",
         "title": "Droit fédéral",
         "details": [
-          "Les agentes et agents de la police municipale sont habilités à traiter les délits (infractions passibles d'une peine privative de liberté n'excédant pas trois ans ou d'une peine pécuniaire) et contraventions (infractions passibles d'une amende)", 
+          "Les agentes et agents de la police municipale sont habilités à traiter :\n- les délits : infractions passibles d'une peine privative de liberté n'excédant pas trois ans ou d'une peine pécuniaire\n- les contraventions : infractions passibles d'une amende", 
           "Ils sont habilités à traiter les délits et contraventions à la loi fédérale sur la circulation routière (LCR)",
           "Ils sont habilités à traiter les articles 19a et 19b de la loi fédérale sur les stupéfiants et les substances psychotropes (LStup)\n- Consommation de produits stupéfiants\n- Détention de produits stupéfiants en vue de la consommation\n- Saisie de stupéfiants et autres substance détenues illicitement",
-          "Ils sont habilités à traiter la loi fédérale sur les armes, les accessoires d'armes et les munitions (LAr)",
-          "- Port d'une arme dont la détention est interdite",
-          "- Saisie des armes et autres objets détenus illicitement",
+          "Ils sont habilités à traiter la loi fédérale sur les armes, les accessoires d'armes et les munitions (LAr)\n- Port d'une arme dont la détention est interdite\n- Saisie des armes et autres objets détenus illicitement",
           "Ils sont habilités à traiter les articles 115 à 120 de la loi fédérale sur les étrangers,\n- Qui parviennent à leur connaissance dans l'exercice de leurs autres compétences matérielles",
           "Ils sont habilités à traiter la loi fédérale sur la protection contre le tabagisme passif (LTBP)\n- Régit la protection contre le tabagisme passif dans les espaces fermés accessibles au public ou qui servent de lieu de travail à plusieurs personnes",
           "Conditions pour le traitement des délits par les APM\n- Accord du département\n- Effectif formé et équipement nécessaires",
@@ -234,6 +232,7 @@
         "number": "14",
         "title": "Composition CCSM",
         "details": [
+          "Commission Consultative de Sécurité Municipale",
           "Nommée par le Conseil d'Etat",
           "Composée de 10 membres :\n- 4 du département (DIN)\n- 4 de l'Association des communes genevoises (ACG)\n- 2 de la Ville de Genève",
           "La présidence et la vice-présidence de la commission sont assurées, en alternance, par la conseillère ou le conseiller d'Etat chargé du département (actuellement Mme Carole-Anne KAST)",

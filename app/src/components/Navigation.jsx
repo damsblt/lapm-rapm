@@ -26,3 +26,4 @@ function Navigation({ currentLaw, onLawChange, currentIndex, totalArticles }) {
 
 export default Navigation
 
+

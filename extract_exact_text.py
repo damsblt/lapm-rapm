@@ -145,3 +145,4 @@ def process_pdfs_with_exact_text():
 if __name__ == "__main__":
     process_pdfs_with_exact_text()
 
+
