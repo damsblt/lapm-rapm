@@ -3,15 +3,27 @@ import './App.css'
 import Flashcard from './components/Flashcard'
 import Navigation from './components/Navigation'
 import TreeView from './components/TreeView'
-import data from './data.json'
+import ModeSelector from './components/ModeSelector'
+import dataCourse from './data.json'
+import dataComplete from './data-complete.json'
 
 function App() {
+  const [mode, setMode] = useState(null) // null, 'course', ou 'complete'
   const [currentLaw, setCurrentLaw] = useState('LAPM')
   const [currentArticleIndex, setCurrentArticleIndex] = useState(0)
   const [viewMode, setViewMode] = useState('flashcard') // 'flashcard' ou 'tree'
 
+  // Sélectionne les données selon le mode
+  const data = mode === 'complete' ? dataComplete : dataCourse
+
   const currentArticles = data[currentLaw].articles
   const currentArticle = currentArticles[currentArticleIndex]
+
+  const handleModeSelect = (selectedMode) => {
+    setMode(selectedMode)
+    setCurrentLaw('LAPM')
+    setCurrentArticleIndex(0)
+  }
 
   const handleNext = () => {
     if (currentArticleIndex < currentArticles.length - 1) {
@@ -34,10 +46,46 @@ function App() {
     setCurrentArticleIndex(0) // Réinitialiser l'index lors du changement de loi
   }
 
+  const handleModeChange = () => {
+    // Change de mode (course <-> complete)
+    const newMode = mode === 'course' ? 'complete' : 'course'
+    setMode(newMode)
+    setCurrentLaw('LAPM')
+    setCurrentArticleIndex(0)
+  }
+
+  const handleBackToModeSelector = () => {
+    setMode(null)
+    setCurrentLaw('LAPM')
+    setCurrentArticleIndex(0)
+  }
+
+  // Affiche le sélecteur de mode si aucun mode n'est sélectionné
+  if (mode === null) {
+    return <ModeSelector onModeSelect={handleModeSelect} />
+  }
+
   return (
     <div className="app">
       <header className="app-header">
         <h1>Révision LAPM / RAPM</h1>
+        <div className="mode-controls">
+          <button 
+            onClick={handleModeChange}
+            className="mode-switch-button"
+            title="Changer de mode"
+          >
+            {mode === 'course' ? '📚 Selon PDF du cours' : '📖 Tous les articles'}
+            <span className="mode-switch-icon">🔄</span>
+          </button>
+          <button 
+            onClick={handleBackToModeSelector}
+            className="mode-selector-button"
+            title="Retour au sélecteur de mode"
+          >
+            ⚙️
+          </button>
+        </div>
         <Navigation 
           currentLaw={currentLaw} 
           onLawChange={handleLawChange}
