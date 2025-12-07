@@ -8,6 +8,16 @@ function Flashcard({ article, lawTitle }) {
     setIsFlipped(!isFlipped)
   }
 
+  // Fonction pour convertir le markdown en HTML
+  const formatText = (text) => {
+    if (!text) return ''
+    // Convertit **texte** en <strong>texte</strong>
+    let formatted = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    // Convertit les sauts de ligne en <br>
+    formatted = formatted.split('\n').join('<br/>')
+    return formatted
+  }
+
   return (
     <div 
       className={`flashcard ${isFlipped ? 'flipped' : ''}`}
@@ -30,7 +40,10 @@ function Flashcard({ article, lawTitle }) {
             <div className="article-details">
               <ul>
                 {article.details.map((detail, index) => (
-                  <li key={index} style={{ whiteSpace: 'pre-line' }}>{detail}</li>
+                  <li 
+                    key={index} 
+                    dangerouslySetInnerHTML={{ __html: formatText(detail) }}
+                  />
                 ))}
               </ul>
             </div>

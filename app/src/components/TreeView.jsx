@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import './TreeView.css'
 
-function TreeView({ data, currentLaw }) {
+function TreeView({ data, currentLaw, searchQuery = '' }) {
   const [expandedArticles, setExpandedArticles] = useState({})
 
   const toggleArticle = (articleNumber) => {
@@ -11,7 +11,22 @@ function TreeView({ data, currentLaw }) {
     }))
   }
 
-  const articles = data[currentLaw].articles
+  // Filtrer les articles selon la recherche
+  const filteredArticles = useMemo(() => {
+    if (!searchQuery.trim()) return data[currentLaw].articles
+    
+    const lowerQuery = searchQuery.toLowerCase()
+    return data[currentLaw].articles.filter(article => {
+      const matchesNumber = article.number.toLowerCase().includes(lowerQuery)
+      const matchesTitle = article.title.toLowerCase().includes(lowerQuery)
+      const matchesDetails = article.details.some(detail => 
+        detail.toLowerCase().includes(lowerQuery)
+      )
+      return matchesNumber || matchesTitle || matchesDetails
+    })
+  }, [data, currentLaw, searchQuery])
+
+  const articles = filteredArticles
 
   return (
     <div className="tree-view">

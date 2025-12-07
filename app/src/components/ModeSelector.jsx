@@ -1,10 +1,21 @@
 import './ModeSelector.css'
 
-function ModeSelector({ onModeSelect }) {
+function ModeSelector({ onModeSelect, darkMode, onDarkModeToggle }) {
   return (
-    <div className="mode-selector">
+    <div className={`mode-selector ${darkMode ? 'dark-mode' : ''}`}>
       <div className="mode-selector-content">
-        <h1>Révision LAPM / RAPM</h1>
+        <div className="mode-selector-header">
+          <h1>Révision LAPM / RAPM</h1>
+          {onDarkModeToggle && (
+            <button 
+              onClick={onDarkModeToggle}
+              className="dark-mode-toggle-selector"
+              title={darkMode ? 'Mode clair' : 'Mode sombre'}
+            >
+              {darkMode ? '☀️' : '🌙'}
+            </button>
+          )}
+        </div>
         <p className="mode-selector-subtitle">Choisissez votre mode de révision :</p>
         
         <div className="mode-options">
@@ -36,4 +47,6 @@ function ModeSelector({ onModeSelect }) {
 }
 
 export default ModeSelector
+
+
 
