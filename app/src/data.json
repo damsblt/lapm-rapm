@@ -16,18 +16,17 @@
         "number": "2",
         "title": "Statut",
         "details": [
-          "Leur nomination doit être approuvée par le Département des Institutions et du Numérique"
+          "Nomination doit être approuvée par le Département des Institutions et du Numérique **(DIN)**",
+          "la commission consultative de sécurité municipale **(CCSM)** a pour mission de démettre des avis ou de formuler des propositions sur l'**application des dispositions de la LAPM** et de son **règlement d'application** (RAPM)"
         ]
       },
       {
         "number": "3",
         "title": "Sélection, formation, habillement, équipement",
         "details": [
-          "Les agents de la police municipale travaillent en uniforme",
-          "Sur demande, ils indiquent leur numéro de matricule, sauf si des circonstances exceptionnelles les en empêchent",
-          "L'uniforme et les insignes des agents de la police municipale, qui leur servent de légitimation, ne doivent prêter à aucune confusion avec ceux des services de la police cantonale ou d'autres services officiels",
-          "Les APM sont engagés par les communes",
-          "Ils sont soumis à l'autorité du conseil administratif"
+          "Les agents de la police municipale travaillent en **uniforme**",
+          "Sur demande, ils indiquent leur **numéro de matricule**, sauf si des circonstances exceptionnelles les en empêchent",
+          "L'uniforme et les insignes des agents de la police municipale, qui leur **servent de légitimation**, ne doivent prêter à aucune confusion avec ceux des services de la police cantonale ou d'autres services officiels",
         ]
       },
       {
@@ -66,7 +65,9 @@
         "number": "5, al.4",
         "title": "Missions",
         "details": [
-          "Dans le cadre de leurs missions, les APM :\n- constatent les infractions qui relèvent de leurs compétences, procèdent à des auditions, transmettent aux autorités compétentes tous rapports ou constats établis dans le cadre de leurs missions\n- procèdent à des auditions\n- transmettent aux autorités compétentes tous rapports ou constats établis"
+          "Constater les infractions qui relèvent de leurs compétences",
+          "Procéder à des auditions",
+          "Transmettre aux autorités compétentes tous rapports ou constats établis"
         ]
       },
       {
