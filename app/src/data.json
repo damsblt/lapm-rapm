@@ -1,12 +1,12 @@
 {
   "LAPM": {
-    "title": "Loi sur les agents de la police municipale",
+    "title": "Loi sur les APM",
     "articles": [
       {
         "number": "1",
         "title": "Définition",
         "details": [
-          "Les agents de la police municipale sont des agents qualifiés",
+          "Les APM sont des agents qualifiés",
           "Engagés par les communes",
           "Dotés de pouvoirs d'autorité",
           "En matière de prescriptions cantonales de police et de prescriptions fédérales"
@@ -24,9 +24,9 @@
         "number": "3",
         "title": "Sélection, formation, habillement, équipement",
         "details": [
-          "Les agents de la police municipale travaillent en **uniforme**",
+          "Les APM travaillent en **uniforme**",
           "Sur demande, ils indiquent leur **numéro de matricule**, sauf si des circonstances exceptionnelles les en empêchent",
-          "L'uniforme et les insignes des agents de la police municipale, qui leur **servent de légitimation**, ne doivent prêter à aucune confusion avec ceux des services de la police cantonale ou d'autres services officiels",
+          "L'uniforme et les insignes des APM, qui leur **servent de légitimation**, ne doivent prêter à aucune confusion avec ceux des services de la police cantonale ou d'autres services officiels"
         ]
       },
       {
@@ -40,12 +40,12 @@
         ]
       },
       {
-        "number": "5",
+        "number": "5, al.1",
         "title": "Missions",
         "details": [
-        "Sécurité de proximité, soit de la prévention des incivilités et de la délinquance par une présence régulière et visible sur le terrain",
-        "Incivilités :comportements considérés comme socialement déviants et/ou troubles liés à la vie quotidienne, qui n'ont pas toujours une qualification pénale mais suscitent un fort sentiment d'insécurité",
-        "Incivilités fréquentes : Rassemblement de jeunes, Agressivité dans les rapports sociaux quotidiens, L'encombrement de certains espaces, Les dégradations de l'environnement immédiat"
+        "**Sécurité de proximité**, soit de la **prévention des incivilités et de la délinquance** par une présence régulière et visible sur le terrain",
+        "Incivilités : **comportements** considérés comme **socialement déviants** et/ou troubles liés à la vie quotidienne, qui n'ont pas toujours une qualification pénale mais **suscitent un fort sentiment d'insécurité**",
+        "Incivilités fréquentes :\n -Rassemblement de jeunes\n -Agressivité dans les rapports sociaux quotidiens\n -Encombrement de certains espaces\n -Dégradations de l'environnement immédiat"
     ]
     },
         {
@@ -63,7 +63,7 @@
       },
       {
         "number": "5, al.4",
-        "title": "Missions",
+        "title": "Dans le cadre des missions",
         "details": [
           "Constater les infractions qui relèvent de leurs compétences",
           "Procéder à des auditions",
@@ -71,66 +71,76 @@
         ]
       },
       {
-        "number": "7 et 8",
+        "number": "7",
+        "title": "Engagements sous commandement cantonal",
+        "details": [
+"Le Conseil d'Etat détermine les évènements ou les opérations qui, en raison de leur importance, requièrent l'engagement temporaire de tout ou partie des agents de la police municipale aux côtés des services de police."        ]
+      },
+      {
+        "number": "8",
         "title": "Subordination à la police",
         "details": [
-          "Lors des engagements mixtes et des engagements sous commandement cantonal, les agents de la police municipale sont subordonnés aux services de police",
-          "Ils agissent sous la responsabilité de l'Etat"
+          "Lors des **engagements mixtes** et des **engagements sous commandement cantonal**, les APM sont **subordonnés aux services de police** et agissent **sous la responsabilité de l'Etat**."
         ]
       },
       {
-        "number": "10A",
+        "number": "10A, al.1&2",
         "title": "Tâches de police judiciaire",
         "details": [
-          "Les agents de la police municipale exercent les tâches de police judiciaire incombant à la police, dans les limites de leurs compétences matérielles telles que définies par la LAPM/RAPM",
-          "Dans ces mêmes limites, ils sont compétents pour ordonner ou exécuter les mesures de contrainte qui peuvent l'être par la police",
-          "Seuls les commissaires de police sont compétents pour ordonner l'arrestation provisoire et la conduite au poste de police municipale d'une personne soupçonnée d'avoir commis un crime ou un délit",
-          "Seuls les commissaires de police sont compétents pour prolonger au-delà de 3 heures l'arrestation provisoire d'une personne appréhendée en flagrante contravention"
+          "Les APM exercent les tâches de police judiciaire incombant à la police, dans les **limites de leurs compétences matérielles** telles que définies par la LAPM/RAPM",
+          "Dans ces mêmes limites, ils sont compétents pour **ordonner ou exécuter les mesures de contrainte** qui peuvent l'être par la police"
+        ]
+      },
+      {
+      "number": "10A, al.3",
+        "title": "Tâches de police judiciaire",
+        "details": [
+          "Seuls les commissaires de police sont compétents pour ordonner l'**arrestation provisoire** et la conduite au poste de police municipale d'une **personne soupçonnée** d'avoir commis un **crime ou un délit**",
+          "Seuls les commissaires de police sont compétents pour **prolonger au-delà de 3 heures l'arrestation provisoire** d'une personne appréhendée en **flagrante contravention**"
         ]
       },
       {
         "number": "11, al.1 et 2",
         "title": "Contrôle d'identité",
         "details": [
-          "Les APM sont habilités à exiger de toute personne qu'ils interpellent qu'elle justifie de son identité si ce contrôle se révèle nécessaire à l'exercice des compétences qui leur sont attribuées",
-          "Si la personne n'est pas en mesure de justifier de son identité, elle peut être conduite dans un poste ou un bureau de police"
+          "Les APM sont habilités à exiger de toute personne qu'ils interpellent qu'elle **justifie de son identité** si ce contrôle se révèle nécessaire à l'exercice des compétences qui leur sont attribuées",
+          "Si la personne n'est **pas en mesure de justifier de son identité**, elle peut être conduite dans un **poste ou un bureau de police**"
         ]
     },     
     {
         "number": "11, al.3",
-        "title": "Fouille sommaire de sécurité",
+        "title": "Contrôle d'identité et fouille sommaire de sécurité",
         "details": [
-          "Dans l'exercice de leurs fonctions, les agents de la police municipale peuvent procéder à la fouille de personnes :\n- qui sont retenues dans le cadre d'un contrôle d'identité, si la fouille est nécessaire pour établir leur identité\n- qui sont inconscientes, en état de détresse ou décédées, si la fouille est nécessaire pour établir leur identité\n- lorsque des raisons de sécurité le justifient",
-          "Sauf si la sécurité immédiate l'exige, les personnes fouillées ne doivent l'être que par des agents du même sexe ou, à leur demande et dans la mesure du possible, du genre auquel elles s'identifient",
-          "Ils peuvent prononcer une mesure d'éloignement au sens de l'article 53 de la loi sur la police"
+          "**Personne retenue** dans le cadre d'un contrôle d'identité, si la fouille est nécessaire pour établir leur identité",
+          "**Personne inconscientes**, **en état de détresse** ou **décédées**, si la fouille est nécessaire pour établir leur identité",
+          "Lorsque des **raisons de sécurité** le justifient"
         ]
   },
   {
     "number": "11, al.4",
-    "title": "Fouille sommaire de sécurité",
+    "title": "Contrôle d'identité et fouille sommaire de sécurité",
     "details": [
-      "Lorsqu'elle s'avère nécessaire, la fouille doit être adaptée aux circonstances et être aussi prévenante et décente que possible"
+      "Lorsqu'elle s'avère nécessaire, la fouille doit être **adaptée aux circonstances** et être aussi **prévenante** et **décente** que possible"
     ]
 },
 {
     "number": "11, al.5",
-    "title": "Fouille sommaire de sécurité",
+    "title": "FContrôle d'identité et fouille sommaire de sécurité",
     "details": [
-      "Sauf si la sécurité immédiate l'exige, les personnes fouillées ne doivent l'être que par des agents du même sexe ou, à leur demande et dans la mesure du possible, du genre auquel elles s'identifient",
-      "Ils peuvent prononcer une mesure d'éloignement au sens de l'article 53 de la loi sur la police"
+      "Sauf si la sécurité immédiate l'exige, les personnes fouillées ne doivent l'être que par des **agents du même sexe** ou, à leur demande et dans la mesure du possible, du **genre auquel elles s'identifient**"
     ]
 },
       {
         "number": "11A",
         "title": "Contrôle des véhicules et des contenants",
         "details": [
-          "Dans l'exercice de leurs fonctions, les agents de la police municipale peuvent fouiller les véhicules et les contenants\n- aux fins d'identification de personnes retenues dans le cadre de l'article 11, alinéa 3\n- aux fins d'identification de personnes inconscientes, en état de détresse ou décédées\n- lorsque des raisons de sécurité le justifient"
+          "Dans l'exercice de leurs fonctions, les APM peuvent fouiller les véhicules et les contenants\n- aux fins d'identification de personnes retenues dans le cadre de l'article 11, alinéa 3\n- aux fins d'identification de personnes inconscientes, en état de détresse ou décédées\n- lorsque des raisons de sécurité le justifient"
         ]
       }
     ]
   },
   "RAPM": {
-    "title": "Règlement sur les agents de la police municipale",
+    "title": "Règlement sur les APM",
     "articles": [
       {
         "number": "2",
@@ -185,7 +195,7 @@
         "number": "9",
         "title": "Droit fédéral",
         "details": [
-          "Les agentes et agents de la police municipale sont habilités à traiter :\n- les délits : infractions passibles d'une peine privative de liberté n'excédant pas trois ans ou d'une peine pécuniaire\n- les contraventions : infractions passibles d'une amende", 
+          "Les agentes et APM sont habilités à traiter :\n- les délits : infractions passibles d'une peine privative de liberté n'excédant pas trois ans ou d'une peine pécuniaire\n- les contraventions : infractions passibles d'une amende", 
           "Ils sont habilités à traiter les délits et contraventions à la loi fédérale sur la circulation routière (LCR)",
           "Ils sont habilités à traiter les articles 19a et 19b de la loi fédérale sur les stupéfiants et les substances psychotropes (LStup)\n- Consommation de produits stupéfiants\n- Détention de produits stupéfiants en vue de la consommation\n- Saisie de stupéfiants et autres substance détenues illicitement",
           "Ils sont habilités à traiter la loi fédérale sur les armes, les accessoires d'armes et les munitions (LAr)\n- Port d'une arme dont la détention est interdite\n- Saisie des armes et autres objets détenus illicitement",
@@ -207,8 +217,8 @@
         "number": "11",
         "title": "Circulation",
         "details": [
-          "Les agents de la police municipale peuvent régler la circulation lorsque les circonstances l'exigent",
-          "A cette fin, les agents de la police municipale donnent les signes prévus par l'ordonnance sur la signalisation routière",
+          "Les APM peuvent régler la circulation lorsque les circonstances l'exigent",
+          "A cette fin, les APM donnent les signes prévus par l'ordonnance sur la signalisation routière",
           "En cas d'inobservation de leurs signes, ils dénoncent les infractions en application du droit fédéral"
         ]
       },
@@ -216,7 +226,7 @@
         "number": "12",
         "title": "Usage de la force",
         "details": [
-          "Lorsqu'ils ont dû recourir à la contrainte, les agents de la police municipale en font état dans un rapport",
+          "Lorsqu'ils ont dû recourir à la contrainte, les APM en font état dans un rapport",
           "Le rapport est adressé à leur supérieur hiérarchique et au commandant de la police"
         ]
       },
