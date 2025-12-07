@@ -40,17 +40,6 @@ function ModeSelector({ onModeSelect, darkMode, onDarkModeToggle }) {
               Accès à tous les articles de la LAPM et du RAPM
             </div>
           </button>
-
-          <button
-            className="mode-button"
-            onClick={() => onModeSelect('exam')}
-          >
-            <div className="mode-icon">✍️</div>
-            <div className="mode-title">Examen</div>
-            <div className="mode-description">
-              Questions à choix multiples pour tester vos connaissances
-            </div>
-          </button>
         </div>
       </div>
     </div>

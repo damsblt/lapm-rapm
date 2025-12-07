@@ -6,10 +6,10 @@
         "number": "1",
         "title": "Définition",
         "details": [
-          "Les APM sont des agents qualifiés",
-          "Engagés par les communes",
-          "Dotés de pouvoirs d'autorité",
-          "En matière de prescriptions cantonales de police et de prescriptions fédérales"
+          "Les APM sont des **agents qualifiés**",
+          "Engagés par les **communes**",
+          "Dotés de **pouvoirs d'autorité**",
+          "En matière de **prescriptions cantonales de police** et de **prescriptions fédérales**"
         ]
       },
       {
@@ -17,7 +17,8 @@
         "title": "Statut",
         "details": [
           "Nomination doit être approuvée par le Département des Institutions et du Numérique **(DIN)**",
-          "la commission consultative de sécurité municipale **(CCSM)** a pour mission de démettre des avis ou de formuler des propositions sur l'**application des dispositions de la LAPM** et de son **règlement d'application** (RAPM)"
+          "la commission consultative de sécurité municipale **(CCSM)** a pour mission de démettre des avis ou de formuler des propositions sur l'**application des dispositions de la LAPM** et de son **règlement d'application** (RAPM)",
+          "La commission est présidée par la conseillère d'Etat, Madame Carole -Anne KAST"
         ]
       },
       {
@@ -33,10 +34,10 @@
         "number": "4",
         "title": "Rattachement organique",
         "details": [
-            "Les APM sont engagés par les communes et soumis à l'autorité du conseil administratif",
-          "Ils prêtent serment devant le conseil administratif",
+            "Les APM sont engagés par les communes et soumis à l'**autorité du conseil administratif**",
+          "Ils prêtent serment devant le **conseil administratif**",
           "Ils peuvent être temporairement subordonnés à la police dans les cas prévus par la loi",
-          "Ils sont rattachés au poste de police le plus proche"
+          "Ils sont rattachés au **poste de police** le plus proche"
         ]
       },
       {
@@ -52,29 +53,29 @@
         "number": "5, al.2",
         "title": "Missions",
         "details": [
-          "Contrôle de l'usage accru du domaine public",
-          "Lutte contre le bruit",
-          "Maintien de la tranquillité publique",
-          "Contrôles en matière de circulation routière",
-          "Prévention et répression en matière de propreté / salubrité",
-          "Répression des contraventions à la législation sur les stupéfiants",
-          "Répression des infractions à la législation sur les étrangers"
+          "**Contrôle** de l'usage accru du **domaine public**",
+          "Lutte contre le **bruit**",
+          "Maintien de la **tranquillité publique**",
+          "**Contrôles** en matière de **circulation routière**",
+          "**Prévention** et répression en matière de **propreté** / **salubrité**",
+          "**Répression** des contraventions à la législation sur les **stupéfiants**",
+          "**Répression** des infractions à la législation sur les **étrangers**"
         ]
       },
       {
         "number": "5, al.4",
         "title": "Dans le cadre des missions",
         "details": [
-          "Constater les infractions qui relèvent de leurs compétences",
-          "Procéder à des auditions",
-          "Transmettre aux autorités compétentes tous rapports ou constats établis"
+          "**Constater** les **infractions** qui relèvent de leurs compétences",
+          "**Procéder** à des **auditions**",
+          "**Transmettre** aux autorités compétentes tous **rapports** ou constats établis"
         ]
       },
       {
         "number": "7",
         "title": "Engagements sous commandement cantonal",
         "details": [
-"Le Conseil d'Etat détermine les évènements ou les opérations qui, en raison de leur importance, requièrent l'engagement temporaire de tout ou partie des agents de la police municipale aux côtés des services de police."        ]
+"**Le Conseil d'Etat** détermine les **évènements ou les opérations** qui, en raison de leur importance, requièrent l'**engagement temporaire de tout ou partie des APM** aux côtés des services de police."        ]
       },
       {
         "number": "8",
@@ -111,8 +112,8 @@
         "number": "11, al.3",
         "title": "Contrôle d'identité et fouille sommaire de sécurité",
         "details": [
-          "**Personne retenue** dans le cadre d'un contrôle d'identité, si la fouille est nécessaire pour établir leur identité",
-          "**Personne inconscientes**, **en état de détresse** ou **décédées**, si la fouille est nécessaire pour établir leur identité",
+          "**Personne retenue** dans le cadre d'un contrôle d'identité, si la fouille est nécessaire pour **établir leur identité**",
+          "**Personne inconscientes**, **en état de détresse** ou **décédées**, si la fouille est nécessaire pour **établir leur identité**",
           "Lorsque des **raisons de sécurité** le justifient"
         ]
   },
@@ -125,7 +126,7 @@
 },
 {
     "number": "11, al.5",
-    "title": "FContrôle d'identité et fouille sommaire de sécurité",
+    "title": "Contrôle d'identité et fouille sommaire de sécurité",
     "details": [
       "Sauf si la sécurité immédiate l'exige, les personnes fouillées ne doivent l'être que par des **agents du même sexe** ou, à leur demande et dans la mesure du possible, du **genre auquel elles s'identifient**"
     ]
@@ -134,7 +135,9 @@
         "number": "11A",
         "title": "Contrôle des véhicules et des contenants",
         "details": [
-          "Dans l'exercice de leurs fonctions, les APM peuvent fouiller les véhicules et les contenants\n- aux fins d'identification de personnes retenues dans le cadre de l'article 11, alinéa 3\n- aux fins d'identification de personnes inconscientes, en état de détresse ou décédées\n- lorsque des raisons de sécurité le justifient"
+          "**Personne retenue** dans le cadre d'un contrôle d'identité, si la fouille est nécessaire pour **établir leur identité**",
+          "**Personne inconscientes**, **en état de détresse** ou **décédées**, si la fouille est nécessaire pour **établir leur identité**",
+          "Lorsque des **raisons de sécurité** le justifient"
         ]
       }
     ]
@@ -154,13 +157,13 @@
         "number": "4",
         "title": "Grades",
         "details": [
-          "Agent en fonction depuis 3 ans au moins, sur proposition de sa hiérarchie : appointé",
-          "Sous-officier, chef de groupe : caporal",
-          "Sous-officier, remplaçant du chef de poste : sergent",
-          "Sous-officier, chef de poste : sergent-major",
-          "Officier, chef d'un corps comprenant plusieurs postes : lieutenant",
-          "Lieutenant en fonction depuis au moins 2 ans consécutifs, sur proposition de sa hiérarchie : premier-lieutenant",
-          "Officier chef d'un corps comprenant plusieurs postes et plusieurs autres officiers : capitaine"
+          "Agent en fonction depuis 3 ans au moins, sur proposition de sa hiérarchie : **appointé**",
+          "Sous-officier, chef de groupe : **caporal**",
+          "Sous-officier, remplaçant du chef de poste : **sergent**",
+          "Sous-officier, chef de poste : **sergent-major**",
+          "Officier, chef d'un corps comprenant plusieurs postes : **lieutenant**",
+          "Lieutenant en fonction depuis au moins 2 ans consécutifs, sur proposition de sa hiérarchie : **premier-lieutenant**",
+          "Officier chef d'un corps comprenant plusieurs postes et plusieurs autres officiers : **capitaine**"
         ]
       },
       {
@@ -195,39 +198,39 @@
         "number": "9",
         "title": "Droit fédéral",
         "details": [
-          "Les agentes et APM sont habilités à traiter :\n- les délits : infractions passibles d'une peine privative de liberté n'excédant pas trois ans ou d'une peine pécuniaire\n- les contraventions : infractions passibles d'une amende", 
-          "Ils sont habilités à traiter les délits et contraventions à la loi fédérale sur la circulation routière (LCR)",
-          "Ils sont habilités à traiter les articles 19a et 19b de la loi fédérale sur les stupéfiants et les substances psychotropes (LStup)\n- Consommation de produits stupéfiants\n- Détention de produits stupéfiants en vue de la consommation\n- Saisie de stupéfiants et autres substance détenues illicitement",
-          "Ils sont habilités à traiter la loi fédérale sur les armes, les accessoires d'armes et les munitions (LAr)\n- Port d'une arme dont la détention est interdite\n- Saisie des armes et autres objets détenus illicitement",
-          "Ils sont habilités à traiter les articles 115 à 120 de la loi fédérale sur les étrangers,\n- Qui parviennent à leur connaissance dans l'exercice de leurs autres compétences matérielles",
-          "Ils sont habilités à traiter la loi fédérale sur la protection contre le tabagisme passif (LTBP)\n- Régit la protection contre le tabagisme passif dans les espaces fermés accessibles au public ou qui servent de lieu de travail à plusieurs personnes",
-          "Conditions pour le traitement des délits par les APM\n- Accord du département\n- Effectif formé et équipement nécessaires",
-          "Plainte/Dénonciation pour infractions hors champ de compétences --> Transmission à la Police cantonale"
+          "Les agentes et APM sont habilités à traiter :\n- **les délits** : infractions passibles d'une peine privative de liberté n'excédant pas trois ans ou d'une peine pécuniaire\n- **les contraventions** : infractions passibles d'une amende", 
+          "Ils sont habilités à traiter les délits et contraventions à la **loi fédérale sur la circulation routière** **(LCR)**",
+          "Ils sont habilités à traiter les **articles 19a et 19b** de la **loi fédérale sur les stupéfiants et les substances psychotropes** **(LStup)**\n- **Consommation de produits stupéfiants**\n- **Détention de produits stupéfiants** en vue de la consommation\n- **Saisie de stupéfiants** et autres substance détenues illicitement",
+          "Ils sont habilités à traiter **la loi fédérale sur les armes, les accessoires d'armes et les munitions (LAr)**\n- **Port d'une arme** dont la détention est interdite\n- **Saisie des armes** et autres objets détenus illicitement",
+          "Ils sont habilités à traiter les **articles 115 à 120** de la **loi fédérale sur les étrangers (LEI)**,\n- Qui parviennent à leur connaissance dans l'exercice de leurs autres compétences matérielles",
+          "Ils sont habilités à traiter la **loi fédérale sur la protection contre le tabagisme passif (LTBP)**\n- Régit la protection contre le tabagisme passif dans les espaces fermés accessibles au public ou qui servent de lieu de travail à plusieurs personnes",
+          "Conditions pour le **traitement des délits par les APM**\n- **Accord du département**\n- **Effectif formé et équipement nécessaires**",
+          "**Plainte/Dénonciation** pour infractions hors champ de compétences --> **Transmission à la Police cantonale**"
         ]
       },
       {
         "number": "10",
         "title": "Enlèvement des véhicules",
         "details": [
-          "Enlèvement immédiat, puis mise à disposition garage, puis fourrière après 10 jours si:\n- Sécurité piéton\n- Gêne circulation",
-          "Enlèvement sur demande au commissaire de terrain (Coms)"
+          "**Enlèvement immédiat**, puis mise à disposition garage, puis fourrière après 10 jours si:\n- **Sécurité piéton**\n- **Gêne circulation**",
+          "**Enlèvement sur demande** au **commissaire de terrain** (Coms)"
         ]
       },
       {
         "number": "11",
         "title": "Circulation",
         "details": [
-          "Les APM peuvent régler la circulation lorsque les circonstances l'exigent",
-          "A cette fin, les APM donnent les signes prévus par l'ordonnance sur la signalisation routière",
-          "En cas d'inobservation de leurs signes, ils dénoncent les infractions en application du droit fédéral"
+          "Les APM peuvent **régler la circulation** lorsque les circonstances l'exigent",
+          "A cette fin, les APM donnent les signes prévus par l'**ordonnance sur la signalisation routière** **(OSR)**",
+          "En cas d'**inobservation de leurs signes**, ils **dénoncent les infractions** en application du droit fédéral"
         ]
       },
       {
         "number": "12",
         "title": "Usage de la force",
         "details": [
-          "Lorsqu'ils ont dû recourir à la contrainte, les APM en font état dans un rapport",
-          "Le rapport est adressé à leur supérieur hiérarchique et au commandant de la police"
+          "Lorsqu'ils ont dû **recourir à la contrainte**, les APM en font état dans un **rapport**",
+          "Le **rapport** est adressé à leur **supérieur hiérarchique** et au **commandant de la police**"
         ]
       },
       {
@@ -245,9 +248,9 @@
         "details": [
           "Commission Consultative de Sécurité Municipale",
           "Nommée par le Conseil d'Etat",
-          "Composée de 10 membres :\n- 4 du département (DIN)\n- 4 de l'Association des communes genevoises (ACG)\n- 2 de la Ville de Genève",
-          "La présidence et la vice-présidence de la commission sont assurées, en alternance, par la conseillère ou le conseiller d'Etat chargé du département (actuellement Mme Carole-Anne KAST)",
-          "Rôle : \nEmet des avis ou des propositions sur l'application de dispositions de la LAPM et de son règlement d'application\nProcède aux consultations et auditions utiles"
+          "Composée de **10 membres** :\n- **4 du département** (DIN)\n- **4 de l'Association des communes genevoises** (ACG)\n- **2 de la Ville de Genève**",
+          "La présidence et la vice-présidence de la commission sont assurées, en alternance, par la conseillère ou le conseiller d'Etat chargé du département (actuellement **Mme Carole-Anne KAST**)",
+          "Rôle : \n**Emet des avis ou des propositions** sur l'application de dispositions de la LAPM et de son règlement d'application\n**Procède aux consultations et auditions utiles**"
         ]
       }
     ]

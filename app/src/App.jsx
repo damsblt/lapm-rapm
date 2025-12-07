@@ -106,36 +106,6 @@ function App() {
     )
   }
 
-  // Affiche le mode examen
-  if (mode === 'exam') {
-    return (
-      <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
-        <header className="app-header">
-          <div className="mode-controls">
-            <button 
-              onClick={handleBackToModeSelector}
-              className="mode-selector-button"
-              title="Retour au sélecteur de mode"
-            >
-              ⚙️
-            </button>
-            <button 
-              onClick={() => setDarkMode(!darkMode)}
-              className="dark-mode-toggle"
-              title={darkMode ? 'Mode clair' : 'Mode sombre'}
-            >
-              {darkMode ? '☀️' : '🌙'}
-            </button>
-          </div>
-        </header>
-        <Exam 
-          data={dataComplete} 
-          darkMode={darkMode}
-        />
-      </div>
-    )
-  }
-
   return (
     <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
       <header className="app-header">
