@@ -11,8 +11,9 @@ function Flashcard({ article, lawTitle }) {
   // Fonction pour convertir le markdown en HTML
   const formatText = (text) => {
     if (!text) return ''
-    // Convertit **texte** en <strong>texte</strong>
-    let formatted = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    // Convertit **texte** en <strong>texte</strong> (gère plusieurs occurrences)
+    // Utilise une regex non-greedy pour capturer chaque occurrence
+    let formatted = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     // Convertit les sauts de ligne en <br>
     formatted = formatted.split('\n').join('<br/>')
     return formatted

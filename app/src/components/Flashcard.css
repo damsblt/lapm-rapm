@@ -171,6 +171,15 @@
   margin-right: 0.5rem;
 }
 
+.article-details li strong {
+  font-weight: 700;
+  color: #667eea;
+}
+
+.app.dark-mode .article-details li strong {
+  color: #90cdf4;
+}
+
 .flip-hint {
   position: sticky;
   bottom: 0;

@@ -1,8 +1,19 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import './TreeView.css'
 
 function TreeView({ data, currentLaw, searchQuery = '' }) {
   const [expandedArticles, setExpandedArticles] = useState({})
+
+  // Fonction pour convertir le markdown en HTML
+  const formatText = (text) => {
+    if (!text) return ''
+    // Convertit **texte** en <strong>texte</strong> (gère plusieurs occurrences)
+    // Utilise une regex non-greedy pour capturer chaque occurrence
+    let formatted = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    // Convertit les sauts de ligne en <br>
+    formatted = formatted.split('\n').join('<br/>')
+    return formatted
+  }
 
   const toggleArticle = (articleNumber) => {
     setExpandedArticles(prev => ({
@@ -28,10 +39,40 @@ function TreeView({ data, currentLaw, searchQuery = '' }) {
 
   const articles = filteredArticles
 
+  // Vérifier si tous les articles sont déployés
+  const allExpanded = useMemo(() => {
+    if (articles.length === 0) return false
+    return articles.every(article => expandedArticles[article.number] === true)
+  }, [articles, expandedArticles])
+
+  // Fonction pour déployer/réduire tous les articles
+  const toggleAllArticles = () => {
+    const newExpandedState = {}
+    const shouldExpand = !allExpanded
+    
+    articles.forEach(article => {
+      newExpandedState[article.number] = shouldExpand
+    })
+    
+    setExpandedArticles(newExpandedState)
+  }
+
+  // Réinitialiser l'état quand les articles changent (changement de loi ou recherche)
+  useEffect(() => {
+    setExpandedArticles({})
+  }, [currentLaw, searchQuery])
+
   return (
     <div className="tree-view">
       <div className="tree-view-header">
         <h2>{data[currentLaw].title}</h2>
+        <button 
+          onClick={toggleAllArticles}
+          className="expand-all-button"
+          title={allExpanded ? 'Réduire tous les articles' : 'Déployer tous les articles'}
+        >
+          {allExpanded ? '🔽 Tout réduire' : '▶️ Tout déployer'}
+        </button>
       </div>
       <div className="tree-view-content">
         {articles.map((article, index) => (
@@ -50,9 +91,10 @@ function TreeView({ data, currentLaw, searchQuery = '' }) {
               <div className="tree-item-details">
                 <ul>
                   {article.details.map((detail, detailIndex) => (
-                    <li key={detailIndex} style={{ whiteSpace: 'pre-line' }}>
-                      {detail}
-                    </li>
+                    <li 
+                      key={detailIndex} 
+                      dangerouslySetInnerHTML={{ __html: formatText(detail) }}
+                    />
                   ))}
                 </ul>
               </div>

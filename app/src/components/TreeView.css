@@ -18,12 +18,43 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .tree-view-header h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
+  flex: 1;
+}
+
+.expand-all-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  white-space: nowrap;
+}
+
+.expand-all-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.expand-all-button:active {
+  transform: translateY(0);
 }
 
 .tree-view-content {
@@ -164,6 +195,15 @@
   margin-right: 0.5rem;
 }
 
+.tree-item-details li strong {
+  font-weight: 700;
+  color: #667eea;
+}
+
+.app.dark-mode .tree-item-details li strong {
+  color: #90cdf4;
+}
+
 @media (max-width: 768px) {
   .tree-view {
     max-width: 100%;
@@ -172,10 +212,19 @@
 
   .tree-view-header {
     padding: 1rem;
+    flex-direction: column;
+    gap: 0.75rem;
   }
 
   .tree-view-header h2 {
     font-size: 1.2rem;
+  }
+
+  .expand-all-button {
+    width: 100%;
+    max-width: 200px;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
   }
 
   .tree-item-header {
