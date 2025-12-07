@@ -4,6 +4,7 @@ import Flashcard from './components/Flashcard'
 import Navigation from './components/Navigation'
 import TreeView from './components/TreeView'
 import ModeSelector from './components/ModeSelector'
+import Exam from './components/Exam'
 import dataCourse from './data.json'
 import dataComplete from './data-complete.json'
 
@@ -82,7 +83,8 @@ function App() {
   }
 
   const handleModeChange = () => {
-    // Change de mode (course <-> complete)
+    // Change de mode (course <-> complete), mais pas si on est en mode exam
+    if (mode === 'exam') return
     const newMode = mode === 'course' ? 'complete' : 'course'
     setMode(newMode)
     setCurrentLaw('LAPM')
@@ -103,6 +105,36 @@ function App() {
         darkMode={darkMode}
         onDarkModeToggle={() => setDarkMode(!darkMode)}
       />
+    )
+  }
+
+  // Affiche le mode examen
+  if (mode === 'exam') {
+    return (
+      <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
+        <header className="app-header">
+          <div className="mode-controls">
+            <button 
+              onClick={handleBackToModeSelector}
+              className="mode-selector-button"
+              title="Retour au sélecteur de mode"
+            >
+              ⚙️
+            </button>
+            <button 
+              onClick={() => setDarkMode(!darkMode)}
+              className="dark-mode-toggle"
+              title={darkMode ? 'Mode clair' : 'Mode sombre'}
+            >
+              {darkMode ? '☀️' : '🌙'}
+            </button>
+          </div>
+        </header>
+        <Exam 
+          data={dataComplete} 
+          darkMode={darkMode}
+        />
+      </div>
     )
   }
 

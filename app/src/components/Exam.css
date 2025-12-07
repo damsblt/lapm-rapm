@@ -1,0 +1,353 @@
+.exam-container {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #333;
+}
+
+.exam-container.dark-mode {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #e0e0e0;
+}
+
+.exam-header {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.exam-container.dark-mode .exam-header {
+  background: #2a2a3e;
+  color: #e0e0e0;
+}
+
+.exam-header h1 {
+  margin: 0 0 20px 0;
+  font-size: 2rem;
+  color: #667eea;
+}
+
+.exam-container.dark-mode .exam-header h1 {
+  color: #8b9aff;
+}
+
+.exam-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.law-selector-exam {
+  display: flex;
+  gap: 10px;
+}
+
+.law-button-exam {
+  padding: 10px 20px;
+  border: 2px solid #667eea;
+  background: white;
+  color: #667eea;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.exam-container.dark-mode .law-button-exam {
+  background: #2a2a3e;
+  color: #8b9aff;
+  border-color: #8b9aff;
+}
+
+.law-button-exam:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.exam-container.dark-mode .law-button-exam:hover {
+  background: #8b9aff;
+  color: #1a1a2e;
+}
+
+.law-button-exam.active {
+  background: #667eea;
+  color: white;
+}
+
+.exam-container.dark-mode .law-button-exam.active {
+  background: #8b9aff;
+  color: #1a1a2e;
+}
+
+.exam-score {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #667eea;
+  padding: 10px 20px;
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+.exam-container.dark-mode .exam-score {
+  color: #8b9aff;
+  background: #2a2a3e;
+}
+
+.exam-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.exam-question {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+
+.exam-container.dark-mode .exam-question {
+  background: #2a2a3e;
+  color: #e0e0e0;
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.exam-container.dark-mode .question-header {
+  border-bottom-color: #444;
+}
+
+.question-header h3 {
+  margin: 0;
+  color: #667eea;
+  font-size: 1.3rem;
+}
+
+.exam-container.dark-mode .question-header h3 {
+  color: #8b9aff;
+}
+
+.question-law {
+  background: #667eea;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.exam-container.dark-mode .question-law {
+  background: #8b9aff;
+  color: #1a1a2e;
+}
+
+.question-text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #f9f9f9;
+}
+
+.exam-container.dark-mode .option {
+  border-color: #444;
+  background: #1a1a2e;
+}
+
+.option:hover {
+  border-color: #667eea;
+  background: #f0f0ff;
+  transform: translateX(5px);
+}
+
+.exam-container.dark-mode .option:hover {
+  border-color: #8b9aff;
+  background: #2a2a3e;
+}
+
+.option input[type="checkbox"] {
+  margin-right: 12px;
+  margin-top: 3px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.option-text {
+  flex: 1;
+  line-height: 1.5;
+}
+
+/* Styles pour les réponses après soumission */
+.option.correct {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.exam-container.dark-mode .option.correct {
+  background: #1e3a1e;
+  border-color: #4caf50;
+  color: #a5d6a7;
+}
+
+.option.wrong {
+  background: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+.exam-container.dark-mode .option.wrong {
+  background: #3a1e1e;
+  border-color: #f44336;
+  color: #ffcdd2;
+}
+
+.option.missed {
+  background: #fff3cd;
+  border-color: #ffc107;
+  color: #856404;
+}
+
+.exam-container.dark-mode .option.missed {
+  background: #3a3428;
+  border-color: #ff9800;
+  color: #ffe082;
+}
+
+.option.correct-not-selected {
+  background: #e7f3ff;
+  border-color: #2196f3;
+  color: #0d47a1;
+}
+
+.exam-container.dark-mode .option.correct-not-selected {
+  background: #1e2a3a;
+  border-color: #64b5f6;
+  color: #90caf9;
+}
+
+.option:disabled,
+.option input[type="checkbox"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.exam-footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.submit-button,
+.new-attempt-button {
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button {
+  background: #28a745;
+  color: white;
+}
+
+.submit-button:hover:not(:disabled) {
+  background: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(40, 167, 69, 0.3);
+}
+
+.submit-button:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.new-attempt-button {
+  background: #667eea;
+  color: white;
+}
+
+.new-attempt-button:hover {
+  background: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
+}
+
+.exam-container.dark-mode .new-attempt-button {
+  background: #8b9aff;
+  color: #1a1a2e;
+}
+
+.exam-container.dark-mode .new-attempt-button:hover {
+  background: #7a8aef;
+}
+
+@media (max-width: 768px) {
+  .exam-container {
+    padding: 10px;
+  }
+
+  .exam-header {
+    padding: 15px;
+  }
+
+  .exam-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .exam-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .law-selector-exam {
+    justify-content: center;
+  }
+
+  .exam-question {
+    padding: 15px;
+  }
+
+  .question-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
