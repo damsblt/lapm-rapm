@@ -4,7 +4,6 @@ import Flashcard from './components/Flashcard'
 import Navigation from './components/Navigation'
 import TreeView from './components/TreeView'
 import ModeSelector from './components/ModeSelector'
-import Exam from './components/Exam'
 import dataCourse from './data.json'
 import dataComplete from './data-complete.json'
 
@@ -83,8 +82,7 @@ function App() {
   }
 
   const handleModeChange = () => {
-    // Change de mode (course <-> complete), mais pas si on est en mode exam
-    if (mode === 'exam') return
+    // Change de mode (course <-> complete)
     const newMode = mode === 'course' ? 'complete' : 'course'
     setMode(newMode)
     setCurrentLaw('LAPM')
